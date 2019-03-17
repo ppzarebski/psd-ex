@@ -1,1 +1,1 @@
-# psd-ex
+PSD exercise

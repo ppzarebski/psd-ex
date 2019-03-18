@@ -1,4 +1,12 @@
 /* Main */
+*:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 body {
   max-width: 2000px;
   width: 100%;
@@ -135,7 +143,7 @@ body {
 }
 
 .btn-clkb:hover {
-  opacity: 0.8 !important;
+  opacity: 0.8;
   cursor: pointer;
 }
 
@@ -457,6 +465,86 @@ body {
   position: relative;
   left: 15px;
 }
+
+/* Prices > thumbnails */
+.page-section .latest-boxes {
+  justify-content: center;
+  padding: 0;
+}
+
+.page-section .latest-box {
+  max-width: 360px;
+  background: #f4f4f4;
+  margin: 30px 10px;
+}
+
+.latest-box .image {
+  height: 250px;
+  width: 100%;
+  position: relative;
+}
+
+.latest-box .image-1 {
+  background: url('../img/thumb-1.png')
+}
+.latest-box .image-2 {
+  background: url('../img/thumb-2.png')
+}
+.latest-box .image-3 {
+  background: url('../img/thumb-3.png')
+}
+.latest-box .image-4 {
+  background: url('../img/thumb-4.png')
+}
+.latest-box .image-5 {
+  background: url('../img/thumb-5.png')
+}
+.latest-box .image-6 {
+  background: url('../img/thumb-6.png')
+}
+
+
+.latest-box .stripe {
+  height: 0;
+  width: 100%;
+  background: rgba(237, 20, 91, 0.85) url('../img/magnifier.png') center center no-repeat;
+  position: absolute;
+  bottom: 0;
+  transition: 0.2s;
+  transition-property: height;
+}
+
+.latest-box .stripe img {
+  position: relative;
+  top: -11px;
+  transition: 0.1s;
+  transition-delay: 0.1s;
+  transition-timing-function: ease-out;
+}
+
+.latest-box:hover .stripe {
+  height: 250px;
+}
+
+.latest-box:hover .stripe img {
+  opacity: 0;
+  transition: 0.1s;
+  transition-delay: 0.1s;
+}
+
+.latest-box-note {
+  padding: 25px 20px 17px;
+}
+
+.latest-box-note > h6 {
+  margin: 0 0 8px;
+  color: #5a5a5a;
+}
+
+.latest-box .latest-box-note > * {
+  text-align: left;
+}
+
 
 
 /* //////////////////// */

@@ -1,6 +1,10 @@
 /* General */
+html {
+  font-size: 16px;
+}
 *:focus {
   outline: none;
+  box-sizing: border-box;
 }
 
 a {
@@ -8,10 +12,9 @@ a {
 }
 
 body {
-  max-width: 2000px;
   width: 100%;
   font-family: Lato, Arial, sans-serif;
-  font-size: 46px;
+  font-size: 2.875rem;
   font-weight: 300;
   background: #fff;
   color: #5a5a5a;
@@ -65,7 +68,7 @@ body {
 
 /* Menu */
 .menu-items {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 1.4em;
   letter-spacing: 0.4px;
@@ -110,7 +113,7 @@ body {
   border-radius: 25px;
   background-color: #ed145b;
   color: #f4f4f4;
-  font-size: 15px;
+  font-size: 0.9375rem;
   margin: 65px auto;
 }
 
@@ -145,7 +148,7 @@ body {
 .page-section h4 {
   display: inline-block;
   color: #5a5a5a;
-  font-size: 38px;
+  font-size: 2.375rem;
   font-weight: 300;
   font-style: italic;
   line-height: 1.4em;
@@ -155,7 +158,7 @@ body {
 
 .page-section h6 {
   color: #ed145b;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 700;
   line-height: 2em;
   text-transform: uppercase;
@@ -172,7 +175,7 @@ body {
 }
 
 .page-section p {
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 300;
   line-height: 2em;
   letter-spacing: 0.38px;
@@ -190,7 +193,7 @@ body {
 }
 
 .intro-section h2 {
-  font-size: 46px;
+  font-size: 2.875rem;
   font-weight: 300;
   line-height: 1.1em;
   text-transform: uppercase;
@@ -207,7 +210,7 @@ body {
 .intro-section p {
   text-align: center;
   color: #ffffff;
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 300;
   line-height: 1.7em;
   letter-spacing: 0.55px;
@@ -233,13 +236,13 @@ body {
 }
 
 .page-section .item-1 {
-  max-width: 470px;
+  max-width: 29.375rem;
   flex: 1 200px;
 }
 
 .page-section .item-2 {
-  max-width: 1030px;
-  flex: 2 500px;
+  max-width: 64.375rem;
+  flex: 2 31.25rem;
 }
 
 .page-section .flex h4 {
@@ -272,7 +275,6 @@ body {
 
 /* Rectangle */
 .about .rectangle {
-  max-width: 2000px;
   width: 100%;
   height: 80px;
   background: url('../img/rect.png') left -40px no-repeat;
@@ -300,7 +302,8 @@ body {
 }
 
 .services .container-fluid {
-  background: url('../img/diver.png');
+  background: url('../img/diver.png') no-repeat;
+  background-size: cover;
 }
 
 .services .container-fluid * {
@@ -308,10 +311,10 @@ body {
 }
 
 .services .container-fluid p {
-  max-width: 825px;
+  max-width: 51.5625rem;
   display: inline-block;
   color: #f4f4f4;
-  font-size: 25px;
+  font-size: 1.5625rem;
   font-style: italic;
   line-height: 1.5em;
   letter-spacing: 0.63px;
@@ -352,7 +355,6 @@ body {
 /* ////////////////////////// */
 /* Prices section */
 .page-section .price-boxes {
-  max-width: 1200px;
   padding-bottom: 120px;
   margin-top: 75px;
   margin-bottom: 0;
@@ -361,7 +363,7 @@ body {
 }
 
 .price-box {
-  max-width: 262px;
+  max-width: 16.375rem;
   background: #fff;
   margin: 15px;
 }
@@ -378,7 +380,7 @@ body {
 }
 
 .prices h5 {
-  font-size: 50px;
+  font-size: 3.125rem;
   line-height: 0.8em;
   letter-spacing: 1.25px;
   margin: 0 auto;
@@ -387,7 +389,7 @@ body {
 }
 
 .prices h5 > span {
-  font-size: 20px;
+  font-size: 1.25rem;
   vertical-align: 7%;
 }
 
@@ -406,7 +408,7 @@ body {
 }
 
 .page-section .offer-box {
-  max-width: 350px;
+  max-width: 21.875rem;
   display: grid;
   grid-template-columns: 20% 80%;
   margin: 15px;
@@ -463,7 +465,7 @@ body {
 }
 
 .page-section .latest-box {
-  max-width: 360px;
+  max-width: 22.5rem;
   background: #f4f4f4;
 }
 
@@ -552,6 +554,7 @@ body {
 .contact .container-fluid.diver {
   height: 650px;
   background: url('../img/diver.png') no-repeat;
+  background-size: cover;
 }
 
 .contact .container-min > * {
@@ -568,11 +571,11 @@ body {
 }
 
 .contact .item-2 {
-  max-width: 830px;
+  max-width: 51.875rem;
 }
 
 .contact .browser {
-  max-width: 800px;
+  max-width: 50rem;
   width: 100%;
 }
 
@@ -608,7 +611,7 @@ body {
 .page-footer p {
   height: fit-content;
   color: #ffffff;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 400;
   line-height: 1.6em;
   letter-spacing: 0.1;
@@ -634,23 +637,36 @@ body {
 /* //////////////////////////// */
 /* MEDIA QUERIES */
 
-@media only screen and (min-width: 1601px) {
+@media (min-width: 1601px) {
   .intro-section {
     background-size: cover;
   }
 }
 
-@media only screen and (max-width: 1600px) {
+@media (min-width: 2001px) {
+  .container {
+    max-width: 1550px;
+  }
+  .container-med {
+    max-width: 1700px;
+  }
+  .about .container-fluid .flex {
+    padding-right: calc((100% - 1710px)/2);
+  }
 }
 
-@media only screen and (max-width: 1400px) {
+
+@media (max-width: 1600px) {
+}
+
+@media (max-width: 1400px) {
   /* krzywy flexbox */
   .page-section .flex {
     justify-content: space-around;
   }
 }
 
-@media only screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
   .container-med {
     width: 90%;
     padding: 100px 10px;

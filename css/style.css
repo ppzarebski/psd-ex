@@ -237,12 +237,12 @@ body {
 
 .page-section .item-1 {
   max-width: 29.375rem;
-  flex: 1 200px;
+  flex: 10 1 12.5rem;
 }
 
 .page-section .item-2 {
   max-width: 64.375rem;
-  flex: 2 31.25rem;
+  flex: 1 10 31.25rem;
 }
 
 .page-section .flex h4 {
@@ -583,12 +583,6 @@ body {
   margin-top: 55px;
 }
 
-.contact .flex {
-  justify-content: flex-start;
-}
-
-
-
 /* //////////////////// */
 /* Page footer */
 .page-footer {
@@ -651,7 +645,7 @@ body {
     max-width: 1700px;
   }
   .about .container-fluid .flex {
-    padding-right: calc((100% - 1710px)/2);
+    padding-right: calc((100% - 1800px)/2);
   }
 }
 
@@ -671,8 +665,12 @@ body {
     width: 90%;
     padding: 100px 10px;
   }
-
   .page-section .feature-boxes {
     justify-content: space-around;
+  }
+}
+@media (max-width: 1000px) {
+  html {
+    font-size: 15px;
   }
 }

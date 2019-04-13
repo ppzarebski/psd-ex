@@ -100,7 +100,7 @@ body {
   text-transform: uppercase;
   line-height: 1.55em;
   font-weight: 700;
-  letter-spacing: 0.38px;
+  letter-spacing: 0.02375rem;
   border: none;
   background: rgba(0,0,0,0);
   margin: 0 auto;
@@ -108,13 +108,13 @@ body {
 
 .btn-primary {
   
-  width: 200px;
-  height: 50px;
-  border-radius: 25px;
+  width: 12.5rem;
+  height: 3.125rem;
+  border-radius: 1.5625rem;
   background-color: #ed145b;
   color: #f4f4f4;
   font-size: 0.9375rem;
-  margin: 65px auto;
+  margin: 4.0625rem auto;
 }
 
 .btn-prices {
@@ -122,11 +122,11 @@ body {
   color: #5a5a5a;
   margin: 0 auto;
   position: relative;
-  top: 25px;
+  top: 1.5625rem;
 }
 
 .btn-buy {
-  margin: 30px auto 0;
+  margin: 1.875rem auto 0;
 }
 
 .btn-rev {
@@ -152,8 +152,8 @@ body {
   font-weight: 300;
   font-style: italic;
   line-height: 1.4em;
-  letter-spacing: 0.95px;
-  margin: 140px auto 0;
+  letter-spacing: 0.059375rem;
+  margin: 8.75rem auto 0;
 }
 
 .page-section h6 {
@@ -162,23 +162,23 @@ body {
   font-weight: 700;
   line-height: 2em;
   text-transform: uppercase;
-  letter-spacing: 0.38px;
+  letter-spacing: 0.02375rem;
   text-align: center;
 }
 
 .page-section hr {
-  max-width: 200px;
+  max-width: 12.5rem;
   height: 2px;
   background-color: #ed145b;
   border: none;
-  margin: 30px auto 35px;
+  margin: 1.875rem auto 2.1875rem;
 }
 
 .page-section p {
   font-size: 0.9375rem;
   font-weight: 300;
   line-height: 2em;
-  letter-spacing: 0.38px;
+  letter-spacing: 0.02375rem;
   text-align: center;
   margin: 0;
 }
@@ -198,9 +198,9 @@ body {
   line-height: 1.1em;
   text-transform: uppercase;
   text-align: center;
-  letter-spacing: 1.15px;
+  letter-spacing: 0.071875rem;
   color: #fff;
-  margin-top: 150px;
+  margin-top: 9.375rem;
 }
 
 .intro-section h2 span {
@@ -213,7 +213,7 @@ body {
   font-size: 1.375rem;
   font-weight: 300;
   line-height: 1.7em;
-  letter-spacing: 0.55px;
+  letter-spacing: 0.034375rem;
   margin: 0 auto;
 }
 
@@ -228,11 +228,11 @@ body {
 }
 
 .page-section .item hr {
-  margin: 27px 0 37px;
+  margin: 1.6875rem 0 2.3125rem;
 }
 
 .page-section .item {
-  margin: 0 14px;
+  margin: 0 0.875rem;
 }
 
 .page-section .item-1 {
@@ -246,7 +246,7 @@ body {
 }
 
 .page-section .flex h4 {
-  margin: 110px auto 0;
+  margin: 6.875rem auto 0;
   text-align: left;
 }
 
@@ -260,7 +260,7 @@ body {
 
 .about .video img {
   vertical-align: -25%;
-  margin-left: 8px;
+  margin-left: 0.5rem;
 }
 
 .about .video h6:hover {
@@ -288,13 +288,13 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 80px auto 110px;
+  margin: 5rem auto 6.875rem;
   position: relative;
 }
 
 .page-section .feature-box {
-  max-width: 138px;
-  margin: 10px 15px;
+  max-width: 8.625rem;
+  margin: 0.625rem 0.9375rem;
 }
 
 .page-section .feature-box h6 {
@@ -312,17 +312,20 @@ body {
 
 .services .container-fluid p {
   max-width: 51.5625rem;
+  width: 57.2917%;
   display: inline-block;
   color: #f4f4f4;
   font-size: 1.5625rem;
   font-style: italic;
   line-height: 1.5em;
-  letter-spacing: 0.63px;
-  padding: 45px 0;
+  letter-spacing: 0.039375rem;
+  padding: 2.8125rem 0;
 }
 
 .services .quote {
   display: block;
+  width: 3.875rem;
+  height: 3.125rem;
 }
 
 .services .rotation {
@@ -355,8 +358,8 @@ body {
 /* ////////////////////////// */
 /* Prices section */
 .page-section .price-boxes {
-  padding-bottom: 120px;
-  margin-top: 75px;
+  padding-bottom: 7.5rem;
+  margin-top: 4.6875rem;
   margin-bottom: 0;
   justify-content: center;
   text-align: center;
@@ -365,7 +368,7 @@ body {
 .price-box {
   max-width: 16.375rem;
   background: #fff;
-  margin: 15px;
+  margin: 0.9375rem;
 }
 
 .price-box:hover .price-box-header {
@@ -382,9 +385,9 @@ body {
 .prices h5 {
   font-size: 3.125rem;
   line-height: 0.8em;
-  letter-spacing: 1.25px;
+  letter-spacing: 0.078125rem;
   margin: 0 auto;
-  padding-top: 33px;
+  padding-top: 2.0625rem;
   vertical-align: sub;
 }
 
@@ -398,7 +401,7 @@ body {
 }
 
 .price-box-main {
-  padding: 55px 30px 30px;
+  padding: 3.4375rem 1.875rem 1.875rem;
 }
 
 .page-section .offer-boxes {
@@ -510,8 +513,9 @@ body {
 }
 
 .latest-box .stripe img {
+  width: 100%;
   position: relative;
-  top: -11px;
+  top: -0.6875rem;
   transition: 0.1s;
   transition-delay: 0.1s;
   transition-timing-function: ease-out;
@@ -672,5 +676,11 @@ body {
 @media (max-width: 1000px) {
   html {
     font-size: 15px;
+  }
+}
+
+@media (max-width: 800px) {
+  html {
+    font-size: 14px;
   }
 }
